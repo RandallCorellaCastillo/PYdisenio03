@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image-container {
+  display: flex;
+  background-color: #0A2F51;
+  flex-direction: column;
+  /*margin-top: 20px; /* Agrega un margen superior para separar las imágenes del logo */
+}
+
+.app-image {
+  width: 100%;
+  background-color: #0A2F51;
+  height: auto;
+  margin-bottom: 20px; /* Agrega margen inferior entre las imágenes */
+}
+
+.text-box {
+  
+  top: 0; /* Ajusta la posición desde la parte superior del contenedor */
+  left: 0; /* Ajusta la posición desde la parte izquierda del contenedor */
+  width: 35%; /* Ajusta el ancho al 100% del contenedor */
+  height: 15%; /* Ajusta la altura al 100% del contenedor */
+  background-color: rgba(0, 0, 0, 15); /* Establece un fondo semi-transparente para el cuadro de texto */
+  color: rgb(0, 0, 0); /* Establece el color del texto */
+  padding: 20px; /* Añade relleno al cuadro de texto */
+  position: absolute; /* Establece la posición absoluta para los cuadros de texto */
+  justifyContent: 'center';
+  alignItems: 'center'; 
+  textAlign: 'center';  /*box-sizing: border-box; /* Incluye el relleno en el tamaño total del cuadro de texto */
+  font-size: 50px; /* Tamaño de fuente más grande */
+  font-weight: bold; /* Texto en negrita */
+}
