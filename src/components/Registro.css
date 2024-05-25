@@ -1,0 +1,61 @@
+
+.tituloRegistrarse {
+    margin-top: 70px;
+    text-align: center; /* Centra el texto */
+    font-size: 50px; /* Tamaño de fuente grande */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase;
+}
+
+.iniciarSesion {
+    margin-top: 20px;
+    text-align: center; /* Centra el texto */
+    font-size: 22px; /* Tamaño de fuente grande */
+    font-weight: bold; /* Texto en negrita */
+    color: #188977;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 50%;
+    background-color: darkgray;
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 400px;
+    height: 60px; /* Ajusta la altura del campo de entrada */
+    border-radius: 10px; /* Establece el radio del borde */
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button_registro {
+    width: 50%;
+    height: 50px;
+    background-color: #188977;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    max-width: 400px;
+    margin-top: 25px;
+    border-radius: 10px; /* Establece el radio del borde */
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #0A2F51;
+}

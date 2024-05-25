@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #0A2F51;
+    height: 100%;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    background-color: #0A2F51;
+    flex-direction: column;
+    /*margin-top: 20px; /* Agrega un margen superior para separar las imágenes del logo */
+  }
+
+.text-box {
+    top: 0; /* Ajusta la posición desde la parte superior del contenedor */
+    left: 0; /* Ajusta la posición desde la parte izquierda del contenedor */
+    width: 35%; /* Ajusta el ancho al 100% del contenedor */
+    height: 15%; /* Ajusta la altura al 100% del contenedor */
+    background-color: rgba(0, 0, 0, 15); /* Establece un fondo semi-transparente para el cuadro de texto */
+    color: rgb(0, 0, 0); /* Establece el color del texto */
+    padding: 20px; /* Añade relleno al cuadro de texto */
+    position: absolute; /* Establece la posición absoluta para los cuadros de texto */
+    font-size: 300%; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center;
+}
+  
+.app-image {
+    width: 100%;
+    background-color: #0A2F51;
+    height: auto;
+    margin-bottom: 20px; /* Agrega margen inferior entre las imágenes */
+}
+  
+  
